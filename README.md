@@ -11,12 +11,9 @@ A data set comprising the bioactivity data of compounds tested against the nucle
 Ligand binding and steroid binding domain sequences of each protein are retrieved from Uniprot web server release 2017_07. The binding site can be confirmed by structure visualization in Pymol.   
 
 
-# Fingerprint/Descriptor(Feature EXtraction) generation for ligand and receptor 
+# Fingerprint/Descriptor(Feature Extraction) generation for ligand and receptor 
       
 Data collected from CHEMBL contains three columns –“ COMPOUD_ID” ,”PROTEIN_ID”,”COMPOUND’S SMILE FORMULLA “,”IC-50” value.
-
-Compound’s smile (CNCCOOH etc.) is needed to be converted in to numeric vector format to make it understandable to the algorithms.
-
 
 Different strategy’s and algorithms are available  i.e. – EstateFingerprinter,
 GraphOnlyFingerprinter, MACCSFingerprinter, SubstructureFingerprintCount, AtomPairs2DFingerprintCount etc.
